@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: aqua;
+    display: flex;
+}
+
+.left_header {
+    text-align: left;
+    position: relative;
+    padding: 10px 10px;
+}
+
+.right_header {
+    text-align: right;
+    margin-left: auto;
+    position: relative;
+    padding: 10px 10px;
+}
+
+.about {
+    background-image: url('img/1.jfif');
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.abouts {
+    color: aqua;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.pro {
+    background-color: aqua;
+}
+
+.proj {
+    padding: 7px;
+}
+
+.projects {
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.forms {
+    background-color: blue;
+    height: 400px;
+}
+
+.form {
+  width: 300px;
+  height: 250px;
+  padding-left: 390px;
+  padding-top: 70px;
+}
+
+.form-rows {
+    text-align: center;
+    position: static;
+    display: block;
+    font-size: large;
+    font-weight: 400;
+}
+
+.labels {
+    display: inline-block;
+    text-align: left;
+    width: 40%;
+    padding: 13px;
+}
+
+.fields {
+    display: inline-block;
+    text-align: right;
+    width: 20%;
+    vertical-align: middle;
+}
+
+.input-fields {
+    width: 130px;
+    height: 30px;
+    border: 2px darkorange solid;
+    border-radius: 7px;
+}
+
+.btn {
+    padding-top: 15px;
+    padding-left: 100px;
+}
+
+.input-btn {
+    width: 38%;
+    height: 35px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 200;
+}
+
+.contact {
+    background-color: green;
+    height: 200px;
+}
+
+.social {
+    text-align: center;
+}
+
+.coding {
+    text-align: center;
+}
+
+.common {
+    color: red;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.input-btn2 {
+    color: red;
+    border-radius: 10px;
+    height: 30px;
+    width: 85px;
+    padding: 0px;
+    margin: 5px;
+    border: 2px yellow solid;
+}
+
+.contacts {
+    padding-top: 30px;
+}
